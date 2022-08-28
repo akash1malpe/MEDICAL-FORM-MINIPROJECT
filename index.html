@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical form</title>
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrDaZTsXaomh0K0s5ZWCQ6T1TIano-uLCB3g&usqp=CAU">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="Container">
+        <img src="logo.jpg" height="50px" width="50px" alt="logo">
+        <p class="para1">MAXOTAG</p>
+        <P class="para1">Healthcare Service</P>
+    </div>
+
+   
+    <form name="myForm" onsubmit="return myFunction()">
+    <div id="Container1">
+        <h1 id="medicalform">M E D I C A L <span class="form1"> F O R M </span></h1>
+
+        <p id="personal">PERSONAL INFORMATION</p>
+      
+         <div>
+             <label>Full Name :    
+             <input name="input1" class="input1" type="text" />
+             </label>
+
+             <label><i>(Please Use Capital)</i>
+             <input name="input2" class="input2" type="text">
+             </label>
+         </div>
+
+         <div>
+            <label>Place Of Birth     :
+            <input name="input3" id="input3" class="input3" type="text"> /  <input name="input4" id="input3" type="text"> /  <input name="input5" id="input3" type="text">
+            </label>
+
+            <label id="gender">Gender  : <input name="input5" id="radio" type="radio"  value="Male" >Male  <input name="input5" id="radio1"  type="radio" value="Female" > Female
+                </label> <br>
+
+            <label>Address     :
+            <input name="input6" id="address" type="text">
+            </label> <br/>
+
+           <label>Phone Number    :
+           <input name="input7" id="phone" type="number">
+           </label>
+
+           <label class="emailid">E-Mail :
+           <input name="input8" id="email" type="email">
+           </label> <br>
+
+           <label> ID Number   :
+           <input name="input9" id="numID" type="text">
+           </label>
+
+           <label>Social Security Number   :
+           <input name="input10" id="social" type="number">
+           </label>
+           <br>
+
+           <label>Status    :
+           <input name="input11" id="input22" type="radio"  value="single"> Single
+           <input name="input11" id="input22" type="radio"  value="Married"> Married
+           <input name="input11" id="input22" type="radio"  value="Divorce"> Divorce
+           <input name="input11" id="input22" type="radio" value="others"> Others
+           </label><br>
+
+           <label>Occupation    :
+           <input name="input12" id="occupation" type="text"> 
+           </label>
+           
+           <label>Are You A Retiree ?   :
+           <input name="input13" type="radio" name="status" value="yes"> Yes
+           <input name="input13" type="radio" name="status" value="No"> No
+           </label>
+
+           <p class="para34"> <i>This space is where you can share notes </i> </p>
+
+           <label>Note : <input name="input14" id="note" type="text "> </label>
+
+
+
+         </div>
+
+
+         <p id="emergency">EMERGENCY CONTACT DETAILS</p>
+
+         <div>
+            <label>Contact Name   :
+            <input name="input15" id="namecontact" type="text">
+            </label>
+
+            <label>Home Number   :
+            <input name="input16" id="numberhome" type="number">
+            </label> <br>
+
+            <label>Relationship   :
+            <input name="input17" id="Relationship" type="text">
+            </label>
+
+            <label>Mobile Number   :
+            <input name="input18" id="num123" type="number">
+            </label>
+        
+         </div>
+
+         <p id="office">OFFICE IS ONLY</p>
+
+
+         
+         <div>
+            <label>Date    :
+            <input name="input19" id="date" type="date">
+            </label>
+
+            <label>Membership Type   :
+            <input name="input20" id="Membership" type="text">
+            </label> <br>
+
+            <label>Membership Number   :
+            <input name="input21" id="MembershipNumber" type="number">
+            </label>
+
+            <label>Payment Type    :
+            <input name="input22" id="Payment" type="text">
+            </label><br>
+
+            <label>Staff Name    :
+            <input name="input23" id="Staff" type="text">
+            </label>
+
+            <label>Staff Signature   :
+            <input id="Signature" type="text">
+            </label> <br>
+            
+
+
+           <div id="footer">
+            <h1 id="akash">Akash D Malpe</h1>
+            <input id="akash11" type="text">
+            <p class="malpe">Akash Malpe</p>
+            <br>
+        </div>
+
+         </div>
+
+
+
+         <div id="last">
+            <h4>More Information :</h4> <br>
+            <h5>Near Sinhgad Law College Pune</h5> <br>
+            <h5> +123-456-7890 (Office)</h5><br>
+            <a href="#">www.maxotaghealth.com</a>
+
+            <h3>THANK YOU</h3>
+         </div>
+            <!-- <center>  <input  type="submit" name="submitbutton" ></center> -->
+            <center> <input type="submit" value="Submit"></input></center>
+        </form>
+
+    </div>
+    
+         
+    <div id="blankdiv"></div>
+    <script>
+    function myFunction(){   
+        // let x=document.forms["myForm"]["input1"].value;
+         
+         
+
+        for (let i = 1; i <= 23; i++) {
+            
+            let e="input"+i;
+            let x=document.forms["myForm"][e].value;
+            console.log(x);
+        }
+        return false;
+    }
+    </script>
+</body>
+</html>

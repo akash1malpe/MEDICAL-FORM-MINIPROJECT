@@ -1,0 +1,372 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    background-color: darkslategray;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+}
+
+#Container{
+    width: 15%;
+    height: 12vh;
+    background-color: blue;
+    border-right:20px solid darkslateblue;
+    padding-top: 55px;
+    padding-left:30px ;
+    position: absolute;
+    top: 0px;
+    
+}
+
+img{
+    position: absolute;
+    left: 20px;
+    top:50px ;
+}
+
+.para1{
+    margin-left: 60px;
+}
+
+#Container1{
+    background-color: white;
+    color: black;
+    padding-left:60px ;
+    margin-top: 90px;
+    
+}
+
+#medicalform{
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+
+.form1{
+    color: blue;
+}
+
+#personal{
+    background-color: darkslategray;
+    color: white;
+    border-left:15px solid blue ;
+    margin: 20px;
+    margin-left: 0%;
+    padding: 20px;
+    font-size: large;
+
+}
+
+
+.input1{
+    width: 80%;
+    height: 30px;
+    padding-left: 40px;
+    margin-left: 140px;
+    margin-bottom: 0px;
+    outline: none;
+}
+
+.input2 {
+    width: 80%;
+    height: 30px;
+    padding-left: 40px;
+    margin-left: 225px;
+    margin-bottom: 20px;
+    outline: none;
+
+}
+
+#input3{
+    border: none;
+    border-bottom: 1px solid black;
+    height: 30px;
+    margin-bottom: 20px;
+    outline: none;
+   
+   
+}
+
+.input3{
+    margin-left: 80px;
+    outline: none;
+
+}
+
+#gender{
+    padding-left: 60px;
+
+}
+
+#radio{
+    margin-left: 30px;
+}
+
+#radio1{
+    margin-left: 30px;
+}
+
+#address{
+     border: none;
+    border-bottom: 1px solid black;
+    width: 85%;
+    margin-left: 114px;
+    margin-bottom:20px ;
+    outline: none;
+}
+
+#phone{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 65px;
+    width: 48%;
+    margin-bottom: 20px;
+    outline: none;
+
+}
+
+
+#email{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 32px;
+    width: 27.5%;
+    outline: none;
+
+}
+
+.emailid{
+    margin-left: 40px;
+}
+ 
+
+#numID{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 93px;
+    margin-right: 14px;
+    width: 46%;
+    margin-bottom: 20px;
+    outline: none;
+
+}
+
+#social{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 25px;
+    width: 23.5%;
+    outline: none;
+
+}
+
+#input22{
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+#occupation{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 89px;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    outline: none;
+
+}
+
+.para34{
+    margin-bottom: 20px;
+}
+
+#note{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 133px;
+    width: 85%;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+#emergency{
+    background-color: darkslategray;
+    color: white;
+    border-left:15px solid blue ;
+    margin: 20px;
+    margin-left: 0%;
+    padding: 20px;
+    font-size: large;
+
+}
+
+#namecontact{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    width: 35%;
+    margin-left: 40px;
+    margin-right: 40px;
+    outline: none;
+
+}
+
+#numberhome{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    width: 37.5%;
+    margin-right: 40px;
+    margin-left: 40px;
+    outline: none;
+
+}
+
+#Relationship{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    width: 35%;
+    margin-left: 52px;
+    margin-right: 40px;
+    outline: none;
+
+}
+
+#num123{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    width: 37.5%;
+    margin-left: 40px;
+    margin-right: 40px;
+    outline: none;
+
+}
+
+#office{
+    background-color: darkslategray;
+    color: white;
+    border-left:15px solid blue ;
+    margin: 20px;
+    margin-left: 0%;
+    padding: 20px;
+    font-size: large;
+
+}
+
+#date{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    width: 33.3%;
+    margin-left:145px;
+    margin-right: 40px;
+    outline: none;
+
+}
+
+#Membership{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    width: 35%;
+    margin-left: 45px;
+    margin-right: 40px;
+    outline: none;
+
+}
+
+#MembershipNumber{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    width: 35%;
+    margin-left: 30px;
+    margin-right: 40px;
+    outline: none;
+
+}
+
+#Payment{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    width: 35%;
+    margin-left: 40px;
+    margin-right: 40px;
+    outline: none;
+
+}
+
+#Staff{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    width: 35%;
+    margin-left: 98px;
+    margin-right: 40px;
+    outline: none;
+
+}
+
+
+#Signature{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    width: 35%;
+    margin-left: 40px;
+    margin-right: 40px;
+    outline: none;
+
+}
+
+
+#akash{
+    font-family: Cursive;
+   
+    
+}
+
+#akash11{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    width: 17%;
+    outline: none;
+
+}
+
+#footer{
+    text-align: right;
+    margin-top: 60px;
+    margin-right: 40px;
+
+}
+
+.malpe{
+    margin-right: 60px;
+}
+
+#last{
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    width: 20%;
+    position: absolute;
+    top:160.5%;
+
+    
+}
+
+#blankdiv{
+    width: 100%;
+    height: 10vh;
+    border-top:20px solid darkslateblue;
+}
+
